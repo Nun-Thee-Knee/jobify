@@ -32,7 +32,7 @@ type CustomFormFieldProps = {
 };
 
 export function CustomFormField({ name, control }: CustomFormFieldProps) {
-  <FormField
+  return <FormField
     control={control}
     name={name}
     render={({ field }) => (
