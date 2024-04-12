@@ -20,8 +20,9 @@ export default function Home() {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, eaque magnam illo optio quae praesentium tempora? A recusandae, excepturi veritatis sequi asperiores molestiae est sit libero rem assumenda ipsam exercitationem.
           </p>
           <Button className="mt-4">
-            <Link href='/add-job'/>
+            <Link href='/add-job'>
             Get Started
+            </Link>
           </Button>
         </div>
         <Image src={LandingImg} alt="Landing" className="hidden lg:block"/>
