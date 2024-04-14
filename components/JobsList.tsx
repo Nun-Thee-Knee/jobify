@@ -17,10 +17,6 @@ function JobsList() {
 
   const jobs = data?.jobs || [];
 
-  const count = data?.count || 0;
-  const page = data?.page || 0;
-  const totalPages = data?.totalPages || 0;
-
   if (isPending) return <h2 className='text-xl'>Please wait...</h2>;
   if (jobs.length < 1) return <h2 className='text-xl'>No Jobs Found...</h2>;
 
